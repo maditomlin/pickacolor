@@ -1,19 +1,54 @@
-body, input {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+.content {
+  margin: 10px auto;
+  width: 400px;
+}
+
+.user-input {
   display: flex;
-  flex-wrap: wrap;
-  font-family: 'Pacifico', cursive;
-  font-size: 50px;
-  height: 200px;
-  width: 200px;
+  flex-direction: wrap;
+  margin-top: 30px;
+  background: white;
 }
-body{
-  display: flex;
-  flex-wrap: wrap;
+
+.name {
+  width: 300px;
+  margin: 25px auto 5px auto;
+  padding: 5px;
+  font-size: 90%;
 }
-input{
-  position: relative;
-  left: 200px;
-  top:-300px;
-  border: 5px solid pink;
+
+.submit-btn {
+  width: 300px;
+  padding: 5px;
+  margin: 5px auto 25px auto;
+  background: #089B8A;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 100%;
 }
+
+.card-container {
+  padding: 30px;
+  background: #ffcce6;
+}
+
+h2 {
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+.name-card {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100px;
+  background: white;
 }
